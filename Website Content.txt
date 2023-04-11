@@ -1,0 +1,28 @@
+Website Content
+
+Home Page
+Announcements / Promos
+
+
+
+Store
+    Link to shopify store
+
+Music
+    Spotify Widget
+    Links to other music services (Apply, Amazon, Deezer, ETC)
+
+Shows
+    List of upcoming shows and links to tickets
+
+Contact
+    Email Form
+
+About
+    Band Bio
+
+
+Terms of Service
+Privacy Policy
+Shipping Policy
+Refund Policy
