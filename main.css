@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
 
-/* General Styles */
 
+
+/* General Styles */
 *{
     box-sizing: border-box;
-    /* border: 1px solid red; */
 }
 
 html{
@@ -14,12 +14,13 @@ html{
 body {
     height: 100%;
     background-color: #0f0f0f;
-    /* text-align: center; */
+    text-align: center;
     font-family: "josefin sans", arial, sans-serif;
     color: #f5f5f7;
 }
 
-section{
+/* Test CSS **for seeing the borders** */
+/* section{
     border: 1px solid blue;
 }
 
@@ -29,16 +30,18 @@ nav{
  
 footer{
     border: 1px solid green;
-}
+} */
+
 
 h2, h3{
     font-size: 40px;
     color: #f5f5f7;
 }
 
-/* h3{
-    border-bottom: 1px solid #f5f5f7;
-} */
+.container-centered{
+    display: flex;
+    justify-content: center;
+}
 
 a{
     text-decoration: none;
@@ -47,18 +50,8 @@ a{
 }
 
 
-/* Background image */
-.image-band{
-    background-image: url(images/band-image2.jpg);
-    height: 100%;
-    
-    background-size: cover;
-}
-
-
 
 /* Navigation */
-
 .logo{
     padding: 10px;
     width: 300px;
@@ -89,11 +82,8 @@ li{
 }
 
 
-/* Social Media */
-
+/* Social Media Icons*/
 .social-media{
-    /* display: flex; */
-    /* flex-direction: column; */
     position: fixed;
     top: 0;
     right: 0;
@@ -111,102 +101,8 @@ li{
 
 
 
-/* Promo */
-
-.promo{
-    /* border: 1px solid blue; */
-    /* margin-top: 50px; */
-    margin: auto;
-    width: 1000px;
-    max-width: 80%;
-    height: 750px;
-}
-
-.container{
-    /* border: 1px solid green; */
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    padding-top: 56.25%
-}
-
-.responsive-iframe{
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-}
-
-
-/* Upcoming Shows */
-.upcoming-shows{
-    margin-top: 100px;
-}
-
-
-/* Music Links */
-.music-links{
-    /* background: rgb(15,15,15);
-    background: linear-gradient(0deg, rgba(15,15,15,1) 0%, rgba(77,77,71,1) 34%, rgba(29,29,31,1) 77%, rgba(15,15,15,1) 100%);  */
-    /* border: 1px solid white; */
-    margin-top: 150px;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-    
-}
-
-.music-links>img{
-    max-width: 350px;
-}
-
-.links-list{
-    /* border: 1px solid blue; */
-    max-width: 1000px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    padding: 10px 50px;
-}
-
-.links-list>li{
-    /* border: 1px solid blue; */
-    border-top: 1px solid #f5f5f7;
-    border-bottom: 1px solid #f5f5f7;
-    padding: 15px 50px;
-    transition: all 0.3s;
-    /* text-align: left; */
-}
-
-.links-list>li:hover{
-    color: #fff;
-    font-weight: 600;
-    /* border-bottom: 1px solid #f5f5f7;
-    border-radius: 50% 50%; */
-    /* transition: all 0.3s; */
-}
-
-.links-list>li>a>i{
-    font-size: 30px;
-}
-
-li>a>span{
-    padding-left: 10px;
-    font-size: 35px;
-}
-
-
-
-
-
-
 /* Email Sign Up */
-
 .email-list{
-    /* border: 1px solid green; */
     background: #1d1d1f;
     margin: 100px 0 50px 0;
     padding: 25px
@@ -223,7 +119,6 @@ li>a>span{
     margin-right: 5px;
 
 }
-
 
 .sign-up-btn{
     width: 100px;
@@ -246,8 +141,8 @@ li>a>span{
 }
 
 
-/* Footer */
 
+/* Footer */
 .footer-logo{
     width: 100px;
     padding-bottom: 10px;
@@ -256,122 +151,4 @@ li>a>span{
 small{
     margin-top: 10px;
     padding: 10px 0;
-}
-
-
-/* Image Slider */
-/* body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-
-} */
-
-
-/* Image slider styles */
-.slider{
-    margin: auto;
-    width: 500px;
-    height: 500px;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-.slides{
-    width: 500%;
-    height: 500px;
-    display: flex;
-}
-
-.slides input{
-    display: none;
-}
-
-.slide{
-    width: 20%;
-    transition: 2s;
-}
-
-.slide img{
-    width: 500px;
-    height: 500px;
-}
-
-/* css for manual slide navigation */
-.navigation-manual{
-    position: absolute;
-    width: 500px;
-    margin-top: -40px;
-    display: flex;
-    justify-content: center;
-}
-
-.manual-btn{
-    border: 2px solid white;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
-}
-
-.manual-btn:not(:last-child){
-    margin-right: 40px;
-}
-
-.manual-btn:hover{
-    background: #f5f5f7
-}
-
-#radio1:checked ~ .first{
-    margin-left: 0;
-}
-
-#radio2:checked ~ .first{
-    margin-left: -20%;
-}
-
-#radio3:checked ~ .first{
-    margin-left: -40%;
-}
-
-#radio4:checked ~ .first{
-    margin-left: -60%;
-}
-
-/* css for automatic nanigation */
-
-.navigation-auto{
-    position: absolute;
-    display: flex;
-    width: 500px;
-    justify-content: center;
-    margin-top: 460px;
-}
-
-.navigation-auto div{
-    border: 2px solid white;
-    padding: 5px;
-    border-radius: 10px;
-    transition: 1s;
-}
-
-.navigation-auto div:not(:last-child){
-    margin-right: 40px;
-}
-
-#radio1:checked ~ .navigation-auto .auto-btn1{
-    background: #f5f5f7;
-}
-
-#radio2:checked ~ .navigation-auto .auto-btn2{
-    background: #f5f5f7;
-}
-
-#radio3:checked ~ .navigation-auto .auto-btn3{
-    background: #f5f5f7;
-}
-
-
-#radio4:checked ~ .navigation-auto .auto-btn4{
-    background: #f5f5f7;
 }
