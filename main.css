@@ -14,17 +14,31 @@ html{
 body {
     height: 100%;
     background-color: #0f0f0f;
-    text-align: center;
+    /* text-align: center; */
     font-family: "josefin sans", arial, sans-serif;
     color: #f5f5f7;
 }
 
-
-h2, h3{
-    font-size: 50px;
-    color: #fff
+section{
+    border: 1px solid blue;
 }
 
+nav{
+    border: 1px solid red;
+}
+ 
+footer{
+    border: 1px solid green;
+}
+
+h2, h3{
+    font-size: 40px;
+    color: #f5f5f7;
+}
+
+/* h3{
+    border-bottom: 1px solid #f5f5f7;
+} */
 
 a{
     text-decoration: none;
@@ -46,8 +60,9 @@ a{
 /* Navigation */
 
 .logo{
-    padding: 15px;
+    padding: 10px;
     width: 300px;
+    /* border: 1px solid red; */
 }
 
 #links-div>ul{
@@ -57,7 +72,7 @@ a{
 
 li{
     list-style: none;
-    padding: 0 20px
+    padding: 0 20px;
 }
 
 .nav-links>li>a{
@@ -100,7 +115,7 @@ li{
 
 .promo{
     /* border: 1px solid blue; */
-    margin-top: 50px;
+    /* margin-top: 50px; */
     margin: auto;
     width: 1000px;
     max-width: 80%;
@@ -191,8 +206,14 @@ li>a>span{
 /* Email Sign Up */
 
 .email-list{
-
+    /* border: 1px solid green; */
+    background: #1d1d1f;
     margin: 100px 0 50px 0;
+    padding: 25px
+}
+
+.email-list p{
+    font-size: 20px;
 }
 
 .email-input{
@@ -232,6 +253,10 @@ li>a>span{
     padding-bottom: 10px;
 }
 
+small{
+    margin-top: 10px;
+    padding: 10px 0;
+}
 
 
 /* Image Slider */
@@ -242,6 +267,8 @@ li>a>span{
 
 } */
 
+
+/* Image slider styles */
 .slider{
     margin: auto;
     width: 500px;

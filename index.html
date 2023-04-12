@@ -58,21 +58,21 @@
         <!-- Promo Section End -->
 
         <!-- Upcoming Shows -->
-        <div class="upcoming-shows">
+        <!-- <section class="upcoming-shows">
             <h3>Upcoming Shows</h3>
             <p>No current shows...</p>
-        </div>
-        <!-- Upcoming Shows End -->
+        </section> -->
+        <!-- Upcoming Shows -->
 
         <!-- Music Site Links -->
-        <div class="music-links">
+        <section class="music-links">
             <h3>Music</h3>
 
             <!-- image slider start -->
             <div class="slider">
                 <div class="slides">
                     <!-- radio buttons start-->
-                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio1" checked>
                     <input type="radio" name="radio-btn" id="radio2">
                     <input type="radio" name="radio-btn" id="radio3">
                     <input type="radio" name="radio-btn" id="radio4">
@@ -138,7 +138,7 @@
                 </li>
             </ul>
             <!-- Links List End -->
-        </div>
+        </section>
         <!-- Music Site Links End -->
 
         <!-- Email List -->
@@ -155,7 +155,10 @@
         <footer>
             <a><img src="images/logo.png" alt="" class="footer-logo"></a>
             <div>
-                <div>Privacy Policy  Terms of Service</div>
+                <div>
+                    <span>Privacy Policy</span>
+                    <span>Terms of Service</span>
+                </div>
                 <div><small>&copy; Copyright Echo Muse 2023</small></div>
             </div>
         </footer>
@@ -167,7 +170,7 @@
     </div>
 
     <script type="text/javascript">
-        let counter = 1;
+        let counter = 2;
         setInterval(function(){
             document.getElementById('radio' + counter).checked = true;
             counter++;
