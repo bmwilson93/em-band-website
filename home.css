@@ -10,10 +10,12 @@
 
 /* Promo */
 .promo{
-    margin: 50px auto;
+    margin: 20px auto;
     width: 1000px;
-    max-width: 80%;
-    /* height: 750px; */
+    max-width: 90%;
+    /* height: 80% */
+    /* min-height: 750px; */
+    height: 750px;
 }
 
 .video-container{
@@ -34,13 +36,52 @@
 }
 
 section{
+    /* width: 80%; */
     margin: 150px 50px;
 }
 
-/* Music Links */
-.music-links{
-    /* margin-top: 150px; */
+
+/* Upcoming Shows */
+.upcoming-shows{
+    border-top: 1px solid #f5f5f7;
+    border-bottom: 1px solid #f5f5f7;
+    padding: 50px;
 }
+
+.upcoming-shows ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
+    /* border: 1px solid orange; */
+    /* max-width: 80%; */
+}
+
+.upcoming-shows li{
+    /* border: 1px solid orange; */
+    padding: 15px 0;
+    /* max-width: 80%; */
+}
+
+.show-info{
+    padding: 0 3rem;
+}
+
+.show-date{
+    text-align: left;
+}
+
+.tickets-btn{
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 6px 15px;
+}
+
+
+/* Music Links */
+/* .music-links{
+    margin-top: 150px;
+} */
 
 .music-links>img{
     max-width: 350px;
