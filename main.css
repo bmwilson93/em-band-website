@@ -166,10 +166,27 @@ li{
 /* Footer */
 .footer-logo{
     width: 100px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.footer-links>a{
+    /* border: 1px solid red; */
+    opacity: 60%;
+    font-size: 100;
+    font-weight: 300;
+    padding: 18px;
+    transition: all 0.35s;
+}
+
+.footer-links>a:hover{
+    opacity: 100%;
 }
 
 small{
     margin-top: 10px;
     padding: 10px 0;
+}
+
+.copy{
+    padding: 20px;
 }
