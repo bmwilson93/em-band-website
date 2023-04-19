@@ -1,3 +1,10 @@
+/* Color Variables */
+:root{
+    --light: #f5f5f7;
+    --dark: #1d1d1f;
+    --very-dark: #0f0f0f;
+}
+
 h1{
     font-size: 50px;
 }
@@ -73,7 +80,7 @@ nav{
     border-image:
         linear-gradient(
             to bottom,
-            #f5f5f7,
+            var(--light),
             rgba(0,0,0,0)
         ) 1 100%;
     /* border-right: 1px solid #f5f5f7; */ 
@@ -88,10 +95,11 @@ nav{
 }
 
 .album-links i {
+    opacity: 60%;
     font-size: 24px;
     transition: all 0.35s;
 }
 
 .album-links i:hover {
-    opacity: 75%;
+    opacity: 100%;
 }

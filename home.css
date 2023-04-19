@@ -1,3 +1,10 @@
+/* Color Variables */
+:root{
+    --light: #f5f5f7;
+    --dark: #1d1d1f;
+    --very-dark: #0f0f0f;
+}
+
 /* Background image */
 .image-band{
     background-image: url(images/band-image2.jpg);
@@ -5,8 +12,6 @@
     
     background-size: cover;
 }
-
-
 
 /* Testing */
 .centered{
@@ -56,7 +61,8 @@
 
 /* Satellite Promo */
 .promo-img{
-    box-shadow: 14px 20px 50px #1d1d1f;
+    margin-top: 50px;
+    box-shadow: 14px 20px 50px var(--dark);
 }
 
 .right{
@@ -65,7 +71,7 @@
 
 .right h2{
     /* border-top: 1px solid white; */
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid var(--light);
     padding: 30px 0;
     /* background: rgba(29,29,31,0.3); */
 }
@@ -83,14 +89,14 @@
 .listen-btn{
     border-radius: 8px;
     height: 50px;
-    border: 1px solid #f5f5f7;
+    border: 1px solid var(--light);
     background-color: rgba(0,0,0,0);
     transition: all 0.3s;
-    color: #f5f5f7;
+    color: var(--light);
 }
 
 .listen-btn:hover{
-    box-shadow: 0px 0px 8px #f5f5f7;
+    box-shadow: 0px 0px 8px var(--light);
 }
 
 section{
@@ -101,8 +107,8 @@ section{
 
 /* Upcoming Shows */
 .upcoming-shows{
-    border-top: 1px solid #f5f5f7;
-    border-bottom: 1px solid #f5f5f7;
+    border-top: 1px solid var(--light);
+    border-bottom: 1px solid var(--light);
     padding: 50px;
 }
 
@@ -130,7 +136,7 @@ section{
 }
 
 .tickets-btn{
-    border: 1px solid white;
+    border: 1px solid var(--light);
     border-radius: 8px;
     padding: 6px 15px;
 }
@@ -156,15 +162,15 @@ section{
 
 .links-list>li{
     /* border: 1px solid blue; */
-    border-top: 1px solid #f5f5f7;
-    border-bottom: 1px solid #f5f5f7;
+    border-top: 1px solid var(--light);
+    border-bottom: 1px solid var(--light);
     padding: 15px 50px;
     transition: all 0.3s;
     /* text-align: left; */
 }
 
 .links-list>li:hover{
-    color: white;
+    color: var(--light);
     font-weight: 600;
     /* border-bottom: 1px solid #f5f5f7;
     border-radius: 50% 50%; */
@@ -221,7 +227,7 @@ li>a>span{
 }
 
 .manual-btn{
-    border: 2px solid white;
+    border: 2px solid var(--light);
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -233,7 +239,7 @@ li>a>span{
 }
 
 .manual-btn:hover{
-    background: #f5f5f7
+    background: var(--light)
 }
 
 #radio1:checked ~ .first{
@@ -263,7 +269,7 @@ li>a>span{
 }
 
 .navigation-auto div{
-    border: 2px solid white;
+    border: 2px solid var(--light);
     padding: 5px;
     border-radius: 10px;
     transition: 1s;
@@ -274,20 +280,20 @@ li>a>span{
 }
 
 #radio1:checked ~ .navigation-auto .auto-btn1{
-    background: #f5f5f7;
+    background: var(--light);
 }
 
 #radio2:checked ~ .navigation-auto .auto-btn2{
-    background: #f5f5f7;
+    background: var(--light);
 }
 
 #radio3:checked ~ .navigation-auto .auto-btn3{
-    background: #f5f5f7;
+    background: var(--light);
 }
 
 
 #radio4:checked ~ .navigation-auto .auto-btn4{
-    background: #f5f5f7;
+    background: var(--light);
 }
 
 

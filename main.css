@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300;400;500;700&family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
 
-
+/* Color Variables */
+:root{
+    --light: #f5f5f7;
+    --dark: #1d1d1f;
+    --very-dark: #0f0f0f;
+}
 
 /* General Styles */
 *{
@@ -13,10 +18,10 @@ html{
 
 body {
     height: 100%;
-    background-color: #0f0f0f;
+    background-color: var(--dark);
     text-align: center;
     font-family: "josefin sans", arial, sans-serif;
-    color: #f5f5f7;
+    color: var(--light);
 }
 
 /* Test CSS **for seeing the borders** */
@@ -38,12 +43,12 @@ footer{
 
 h2, h3{
     font-size: 40px;
-    color: #f5f5f7;
+    color: var(--light);
 }
 
 h2, h3>a{
     font-size: 40px;
-    color: #f5f5f7;
+    color: var(--light);
 }
 
 .container-centered{
@@ -91,10 +96,10 @@ li{
 }
 
 .nav-links>li>a:hover{
-    color: #fff;
+    /* color: #fff; */
     opacity: 65%;
     /* font-weight: 700; */
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid var(--light);
 }
 
 
@@ -119,7 +124,7 @@ li{
 
 /* Email Sign Up */
 .email-list{
-    background: #1d1d1f;
+    background: var(--very-dark);
     margin: 100px 0 50px 0;
     padding: 25px
 }
@@ -146,14 +151,14 @@ li{
 .sign-up-btn, .email-input{
     border-radius: 8px;
     height: 50px;
-    border: 1px solid #f5f5f7;
+    border: 1px solid var(--light);
     background-color: rgba(0,0,0,0);
     transition: all 0.3s;
-    color: #f5f5f7;
+    color: var(--light);
 }
 
 .sign-up-btn:hover, .email-input:hover{
-    box-shadow: 0px 0px 8px #f5f5f7;
+    box-shadow: 0px 0px 8px var(--light);
 }
 
 
