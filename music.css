@@ -2,6 +2,10 @@ h1{
     font-size: 50px;
 }
 
+nav{
+    margin-bottom: 100px;
+}
+
 
 /* Album Grid Styles */
 .music-grid{

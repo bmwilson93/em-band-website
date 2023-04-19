@@ -62,8 +62,13 @@ a{
 /* Navigation */
 .logo{
     padding: 10px;
-    width: 300px;
+    width: 250px;
+    transition: all 0.35s;
     /* border: 1px solid red; */
+}
+
+.logo:hover{
+    opacity: 65%;
 }
 
 #links-div>ul{
@@ -80,13 +85,16 @@ li{
     text-decoration: none;
     color: inherit;
     font-size: 30px;
+    font-weight: 300;
     transition: all 0.4s;
     padding: 10px;
 }
 
 .nav-links>li>a:hover{
     color: #fff;
-    font-weight: 700;
+    opacity: 65%;
+    /* font-weight: 700; */
+    border-bottom: 1px solid white;
 }
 
 
