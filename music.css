@@ -1,0 +1,59 @@
+h1{
+    font-size: 50px;
+}
+
+
+/* Album Grid Styles */
+.music-grid{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* max-width: 80%; */
+}
+
+
+/* Album Card Styles */
+.album{
+    margin-bottom: 80px;
+}
+
+.album-art{
+    width: 250px;
+}
+
+.album-title{
+    font-size: 28px;
+    padding: 0;
+    margin: 18px 0;
+}
+
+.album-links{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.album-links > li{
+    border-width: 1px;
+    border-style: solid;
+    border-image:
+        linear-gradient(
+            to bottom,
+            #f5f5f7,
+            rgba(0,0,0,0)
+        ) 1 100%;
+    /* border-right: 1px solid #f5f5f7; */ 
+}
+
+.album-links > li:first-child{
+    border-left: none;
+}
+
+.album-links > li:last-child{
+    border-right: none;
+}
+
+.album-links i {
+    font-size: 24px;
+}
