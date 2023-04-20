@@ -9,7 +9,7 @@
     background-size: cover;
 }
 
-/* Testing */
+/* Album Art Promo */
 .centered{
     margin: auto;
     padding-top: 70px;
@@ -24,25 +24,24 @@
     font-weight: 500;
 }
 
-/* div, section{
-    border: 1px solid red;
-} */
-
 .tiny{
     font-size: 12px;
 }
+
 .promo-img{
     width: 500px;
 }
-/* Testing End */
+
 
 /* Promo */
 .promo{
+    /* display: flex;
+    justify-items: space-between; */
     margin: 20px auto;
     width: 1000px;
     max-width: 90%;
-    /* height: 80% */
-    /* min-height: 750px; */
+    height: 80%;
+    min-height: 750px;
     height: 750px;
 }
 
@@ -74,6 +73,10 @@
 .left{
     padding-top: 100px;
 }
+
+/* .right{
+    padding-left: 250px;
+} */
 
 .left p{
     padding: 50px 0;
