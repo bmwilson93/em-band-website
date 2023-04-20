@@ -110,14 +110,14 @@
     color: var(--light);
 }
 
-.listen-btn:hover{
-    box-shadow: 0px 0px 8px var(--light);
-}
 
 section{
     /* width: 80%; */
     margin: 50px 50px;
 }
+
+
+
 
 
 /* Upcoming Shows */
@@ -154,6 +154,23 @@ section{
     border: 1px solid var(--light);
     border-radius: 8px;
     padding: 6px 15px;
+    height: 40px;
+    transition: all 0.35s;
+}
+
+.show-list{
+    /* border: 1px solid blue; */
+    padding: 0 300px;
+}
+
+.show-list li{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.show-list li:not(:last-child){
+    border-bottom: 1px solid var(--med-dark);
 }
 
 
@@ -177,8 +194,8 @@ section{
 
 .links-list>li{
     /* border: 1px solid blue; */
-    border-top: 1px solid var(--light);
-    border-bottom: 1px solid var(--light);
+    border-top: 1px solid var(--med-dark);
+    border-bottom: 1px solid var(--med-dark);
     padding: 15px 50px;
     transition: all 0.3s;
     /* text-align: left; */

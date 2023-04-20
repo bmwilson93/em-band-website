@@ -3,6 +3,7 @@
 /* Color Variables */
 :root{
     --light: #f5f5f7;
+    --med-dark: #333;
     --dark: #1d1d1f;
     --very-dark: #0f0f0f;
 }
@@ -40,6 +41,10 @@ body{
     background-repeat: repeat;
 }
 
+.hover-glow:hover{
+    box-shadow: 0px 0px 8px var(--light);
+    cursor: pointer;
+}
 /* Test CSS **for seeing the borders** */
 /* section{
     border: 1px solid blue;
@@ -140,20 +145,21 @@ li{
 
 /* Email Sign Up */
 .email-list{
-    /* background: var(--very-dark);
+    /* background: var(--dark); */
 
-    box-shadow: 0 30px 30px var(--very-dark); */
+    /* box-shadow: 0 30px 30px var(--dark); */
 
     margin: 100px 0 50px 0;
     padding: 25px
 }
 
 .email-list p{
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .email-list i{
     padding-right: 5px;
+    font-size: 22px;
 }
 
 .email-input{
@@ -161,7 +167,7 @@ li{
     font-size: 20px;
     text-align: center;
     margin-right: 5px;
-
+    outline: none;
 }
 
 .sign-up-btn{
@@ -180,7 +186,7 @@ li{
     color: var(--light);
 }
 
-.sign-up-btn:hover, .email-input:hover{
+.email-input:hover{
     box-shadow: 0px 0px 8px var(--light);
 }
 
