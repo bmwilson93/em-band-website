@@ -21,11 +21,12 @@ body {
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
+    margin-bottom: 0px;
     height: 100%;
-
-    /* background-color: var(--dark); */
-    background: rgb(15,15,15);
-    background: linear-gradient(90deg, rgba(15,15,15,1) 0%, rgba(29,29,31,1) 17%, rgba(29,29,31,1) 85%, rgba(15,15,15,1) 100%); 
+    
+    /* <a href="https://www.freepik.com/free-vector/geometric-circular-dot-shape-background_27312107.htm#query=repeating%20texture&position=49&from_view=search&track=robertav1_2_sidr">Image by vector_corp</a> on Freepik */
+    background-image: url(images/light-texture.png);
+    background-repeat: repeat;
 
     text-align: center;
     font-family: "josefin sans", arial, sans-serif;
@@ -34,11 +35,6 @@ body {
 
 h1{
     font-size: 50px;
-}
-
-body{
-    background-image: url(images/light-texture.png);
-    background-repeat: repeat;
 }
 
 .hover-glow:hover{
