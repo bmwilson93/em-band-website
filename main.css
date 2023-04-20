@@ -17,8 +17,15 @@ html{
 }
 
 body {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
     height: 100%;
-    background-color: var(--dark);
+
+    /* background-color: var(--dark); */
+    background: rgb(15,15,15);
+    background: linear-gradient(90deg, rgba(15,15,15,1) 0%, rgba(29,29,31,1) 17%, rgba(29,29,31,1) 85%, rgba(15,15,15,1) 100%); 
+
     text-align: center;
     font-family: "josefin sans", arial, sans-serif;
     color: var(--light);
@@ -26,6 +33,11 @@ body {
 
 h1{
     font-size: 50px;
+}
+
+body{
+    background-image: url(images/light-texture.png);
+    background-repeat: repeat;
 }
 
 /* Test CSS **for seeing the borders** */
@@ -128,13 +140,20 @@ li{
 
 /* Email Sign Up */
 .email-list{
-    background: var(--very-dark);
+    /* background: var(--very-dark);
+
+    box-shadow: 0 30px 30px var(--very-dark); */
+
     margin: 100px 0 50px 0;
     padding: 25px
 }
 
 .email-list p{
     font-size: 20px;
+}
+
+.email-list i{
+    padding-right: 5px;
 }
 
 .email-input{
@@ -168,6 +187,13 @@ li{
 
 
 /* Footer */
+footer{
+    border-top: 1px solid #333;
+    /* background-color: var(--very-dark); */
+    padding-top: 30px;
+    /* box-shadow: 0 -15px 20px var(--very-dark); */
+}
+
 .footer-logo{
     width: 100px;
     padding-bottom: 20px;
