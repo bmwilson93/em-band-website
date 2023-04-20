@@ -31,7 +31,6 @@ form>input, form>button, form>textarea{
     color: inherit;
     font-family: inherit;
 }
-
 form>input, form>textarea{
     outline: none;
     border: none;
@@ -64,12 +63,13 @@ form>button{
 
 #message{
     grid-column: 1 / span 4;
-    height: 100px;
+    /* height: 100px; */
     white-space: nowrap;
 }
 
 form>button{
     /* position: relative; */
+    margin-top: 20px;
     justify-self: center;
     grid-column: 2 / span 2;
     width: 180px;
